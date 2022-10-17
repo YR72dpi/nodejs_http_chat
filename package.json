@@ -1,0 +1,17 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A peer-to-peer local chat",
+  "main": "index.js",
+  "scripts": {
+    "rx": "node index.js mode=rx port=8000",
+    "tx": "node index.js mode=tx port=8000"
+  },
+  "author": "Rousselle Ylan",
+  "license": "ISC",
+  "dependencies": {
+    "node-libcurl": "^2.3.4",
+    "readline-sync": "^1.4.10"
+  }
+}
