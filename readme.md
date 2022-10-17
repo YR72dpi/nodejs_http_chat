@@ -36,7 +36,7 @@ node index.js mode=rx port=PORT
 
 Send to host __IP__ at port __PORT__
 ```bash
-node index.js mode=rx host=IP port=PORT
+node index.js mode=tx host=IP port=PORT
 ```
 
 ## To improve it
