@@ -5,8 +5,8 @@
   "description": "A peer-to-peer local chat",
   "main": "index.js",
   "scripts": {
-    "rx": "node index.js mode=rx port=8000",
-    "tx": "node index.js mode=tx port=8000"
+    "rx": "node index.js mode=rx port=8080",
+    "tx": "node index.js mode=tx host=127.0.0.1 port=8080"
   },
   "author": "Rousselle Ylan",
   "license": "ISC",
